@@ -1,0 +1,42 @@
+{
+  "name": "filmism",
+  "version": "0.1.0",
+  "description": "Make films with AI in Claude Code: story, look and characters kept in markdown, with consistent prompts compiled for every shot.",
+  "keywords": [
+    "claude-code",
+    "ai-film",
+    "filmmaking",
+    "prompt",
+    "midjourney",
+    "storyboard",
+    "slash-commands"
+  ],
+  "author": "Nobody and The Computer",
+  "license": "MIT",
+  "bin": {
+    "filmism": "bin/filmism.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "templates",
+    "commands",
+    "adapters",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NandTC/filmism.git"
+  },
+  "homepage": "https://github.com/NandTC/filmism#readme",
+  "bugs": {
+    "url": "https://github.com/NandTC/filmism/issues"
+  }
+}
